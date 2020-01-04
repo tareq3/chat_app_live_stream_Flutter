@@ -283,6 +283,7 @@ class _ChatState extends State<Chat> {
         'text': messageController.text,
         'from': widget.user.email,
         'date': DateTime.now().toIso8601String().toString(),
+        
       });
       messageController.clear();
       scrollController.animateTo(
